@@ -1,0 +1,82 @@
+{
+  "app": {
+    "name": "FihiranaVIF"
+  },
+  "console": {
+    "title": "Console",
+    "subtitle": "Conduite de culte"
+  },
+  "projection": {
+    "title": "Projection",
+    "ready": "Prêt"
+  },
+  "mobile": {
+    "title": "Lecture mobile"
+  },
+  "nav": {
+    "songs": "Chants",
+    "bible": "Bible",
+    "services": "Cultes",
+    "settings": "Paramètres"
+  },
+  "songs": {
+    "searchPlaceholder": "Rechercher un chant…",
+    "count_one": "{{count}} chant",
+    "count_other": "{{count}} chants",
+    "empty": "Aucun chant trouvé",
+    "noSelection": "Sélectionnez un chant dans la liste",
+    "section": {
+      "verse": "Couplet",
+      "chorus": "Refrain",
+      "bridge": "Pont",
+      "intro": "Intro",
+      "outro": "Outro",
+      "free": "Libre"
+    },
+    "actions": {
+      "openProjection": "Projeter",
+      "blackout": "Écran noir",
+      "next": "Suivant",
+      "previous": "Précédent",
+      "new": "Nouveau",
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "save": "Enregistrer",
+      "create": "Créer",
+      "cancel": "Annuler",
+      "export": "Exporter",
+      "confirmDelete": "Supprimer \"{{title}}\" ?"
+    },
+    "editor": {
+      "fields": {
+        "title": "Titre",
+        "sequence": "Numéro",
+        "language": "Langue",
+        "author": "Auteur",
+        "visibility": "Visibilité"
+      },
+      "visibility": {
+        "private": "Privé",
+        "shared": "Partagé"
+      },
+      "sections": {
+        "title": "Sections",
+        "addSection": "Ajouter une section",
+        "labelPlaceholder": "Étiquette (optionnel)",
+        "linesPlaceholder": "Une ligne par ligne…"
+      },
+      "errors": {
+        "titleRequired": "Le titre est obligatoire"
+      }
+    }
+  },
+  "language": {
+    "label": "Langue"
+  },
+  "theme": {
+    "label": "Thème",
+    "light": "Clair",
+    "dark": "Sombre",
+    "system": "Auto"
+  }
+}

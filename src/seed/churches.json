@@ -1,0 +1,12 @@
+[
+  {
+    "id": "eebe8b50-ea59-532d-b857-18f99f74f989",
+    "name": "VIF",
+    "slug": "vif",
+    "branding": {},
+    "locale_default": "mg",
+    "plan": "free",
+    "created_at": "2026-06-09T00:00:00Z",
+    "updated_at": "2026-06-09T00:00:00Z"
+  }
+]

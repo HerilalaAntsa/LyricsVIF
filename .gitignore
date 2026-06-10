@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build
+dist/
+dist-ssr/
+*.local
+*.tsbuildinfo
+
+# Env
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Tests
+coverage/
+*.lcov
+
+# RAG local — mémoire privée non versionnée (cf. MY_RULES §2)
+.local_rag/
+
+# Données / artefacts
+data/
+quarantine/
+tmp/
+
+# Python (si scripts annexes)
+__pycache__/
+*.py[cod]
+venv/
+.venv/

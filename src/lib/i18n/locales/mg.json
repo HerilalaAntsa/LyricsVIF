@@ -1,0 +1,43 @@
+{
+  "app": {
+    "name": "FihiranaVIF"
+  },
+  "console": {
+    "title": "Tobim-baovao",
+    "subtitle": "Fitantanana ny fotoam-pivavahana"
+  },
+  "projection": {
+    "title": "Fanehoana",
+    "ready": "Vonona"
+  },
+  "mobile": {
+    "title": "Vakiteny finday"
+  },
+  "nav": {
+    "songs": "Hira",
+    "bible": "Baiboly",
+    "services": "Fotoam-pivavahana",
+    "settings": "Fandrindrana"
+  },
+  "songs": {
+    "searchPlaceholder": "Hitady hira…",
+    "count_one": "{{count}} hira",
+    "count_other": "{{count}} hira",
+    "empty": "Tsy misy hira hita",
+    "noSelection": "Misafidiana hira eo amin'ny lisitra",
+    "section": {
+      "verse": "Andininy",
+      "chorus": "Fiverenana",
+      "bridge": "Tetezana",
+      "intro": "Fampidirana",
+      "outro": "Famaranana",
+      "free": "Tapa-bolana"
+    },
+    "actions": {
+      "openProjection": "Mampiseho",
+      "blackout": "Maizina",
+      "next": "Manaraka",
+      "previous": "Aloha"
+    }
+  }
+}

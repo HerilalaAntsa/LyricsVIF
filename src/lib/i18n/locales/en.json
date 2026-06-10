@@ -1,0 +1,82 @@
+{
+  "app": {
+    "name": "FihiranaVIF"
+  },
+  "console": {
+    "title": "Console",
+    "subtitle": "Service control"
+  },
+  "projection": {
+    "title": "Projection",
+    "ready": "Ready"
+  },
+  "mobile": {
+    "title": "Mobile reader"
+  },
+  "nav": {
+    "songs": "Songs",
+    "bible": "Bible",
+    "services": "Services",
+    "settings": "Settings"
+  },
+  "songs": {
+    "searchPlaceholder": "Search a song…",
+    "count_one": "{{count}} song",
+    "count_other": "{{count}} songs",
+    "empty": "No song found",
+    "noSelection": "Select a song from the list",
+    "section": {
+      "verse": "Verse",
+      "chorus": "Chorus",
+      "bridge": "Bridge",
+      "intro": "Intro",
+      "outro": "Outro",
+      "free": "Free"
+    },
+    "actions": {
+      "openProjection": "Project",
+      "blackout": "Blackout",
+      "next": "Next",
+      "previous": "Previous",
+      "new": "New",
+      "edit": "Edit",
+      "delete": "Delete",
+      "save": "Save",
+      "create": "Create",
+      "cancel": "Cancel",
+      "export": "Export",
+      "confirmDelete": "Delete \"{{title}}\"?"
+    },
+    "editor": {
+      "fields": {
+        "title": "Title",
+        "sequence": "Number",
+        "language": "Language",
+        "author": "Author",
+        "visibility": "Visibility"
+      },
+      "visibility": {
+        "private": "Private",
+        "shared": "Shared"
+      },
+      "sections": {
+        "title": "Sections",
+        "addSection": "Add a section",
+        "labelPlaceholder": "Label (optional)",
+        "linesPlaceholder": "One line per line…"
+      },
+      "errors": {
+        "titleRequired": "Title is required"
+      }
+    }
+  },
+  "language": {
+    "label": "Language"
+  },
+  "theme": {
+    "label": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "Auto"
+  }
+}
