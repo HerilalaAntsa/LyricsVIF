@@ -5,12 +5,14 @@ import "@/styles/index.css";
 import "@/i18n";
 import { router } from "@/router";
 import { ensureSeeded } from "@/lib/db/seed";
+import { AuthBootstrap } from "@/features/auth/AuthBootstrap";
 
 const root = createRoot(document.getElementById("root")!);
 
 function render() {
   root.render(
     <StrictMode>
+      <AuthBootstrap />
       <RouterProvider router={router} />
     </StrictMode>,
   );

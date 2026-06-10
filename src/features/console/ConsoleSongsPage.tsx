@@ -5,6 +5,8 @@ import { downloadBlob, exportSongsAsBlob } from "@/lib/db/songs";
 import { SongListPanel } from "@/features/songs/SongListPanel";
 import { LanguageSwitcher } from "@/features/ui/LanguageSwitcher";
 import { ThemeSwitcher } from "@/features/ui/ThemeSwitcher";
+import { UserMenu } from "@/features/auth/UserMenu";
+import { SyncButton } from "@/features/console/SyncButton";
 
 export function ConsoleSongsPage() {
   const { t } = useTranslation();
@@ -25,6 +27,7 @@ export function ConsoleSongsPage() {
           <p className="text-xs text-zinc-500 dark:text-zinc-400">{t("console.subtitle")}</p>
         </div>
         <div className="flex items-center gap-2">
+          <SyncButton />
           <button
             type="button"
             onClick={handleExport}
@@ -35,6 +38,7 @@ export function ConsoleSongsPage() {
           </button>
           <ThemeSwitcher />
           <LanguageSwitcher />
+          <UserMenu />
         </div>
       </header>
       <div className="grid min-h-0 flex-1 grid-cols-[320px_1fr]">

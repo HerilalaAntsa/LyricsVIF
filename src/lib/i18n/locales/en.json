@@ -78,5 +78,15 @@
     "light": "Light",
     "dark": "Dark",
     "system": "Auto"
+  },
+  "auth": {
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "email": "Email",
+    "password": "Password"
+  },
+  "sync": {
+    "button": "Sync",
+    "lastAt": "Synced {{time}}"
   }
 }

@@ -42,7 +42,11 @@
       "Bash(echo \"user.name: $\\(git config user.name || echo VIDE\\)\")",
       "Bash(echo \"user.email: $\\(git config user.email || echo VIDE\\)\")",
       "Bash(git remote *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(git checkout *)",
+      "Bash(git pull *)"
     ]
   }
 }
