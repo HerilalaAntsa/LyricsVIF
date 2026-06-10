@@ -82,6 +82,7 @@
   "auth": {
     "signIn": "Sign in",
     "signOut": "Sign out",
+    "signedInAs": "Signed in as",
     "email": "Email",
     "password": "Password"
   },

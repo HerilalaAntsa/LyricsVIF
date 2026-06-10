@@ -46,7 +46,10 @@
       "Bash(git commit -m ' *)",
       "Bash(git push *)",
       "Bash(git checkout *)",
-      "Bash(git pull *)"
+      "Bash(git pull *)",
+      "Bash(/usr/bin/curl -s http://localhost:4173/console/songs)",
+      "Bash(/usr/bin/grep -oE '/assets/index-[A-Za-z0-9_-]+\\\\.js')",
+      "Bash(/usr/bin/head -1)"
     ]
   }
 }
