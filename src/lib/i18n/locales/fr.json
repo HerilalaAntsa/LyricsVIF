@@ -78,5 +78,16 @@
     "light": "Clair",
     "dark": "Sombre",
     "system": "Auto"
+  },
+  "auth": {
+    "signIn": "Se connecter",
+    "signOut": "Déconnexion",
+    "signedInAs": "Connecté en tant que",
+    "email": "E-mail",
+    "password": "Mot de passe"
+  },
+  "sync": {
+    "button": "Synchroniser",
+    "lastAt": "Maj {{time}}"
   }
 }

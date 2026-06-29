@@ -3,8 +3,8 @@ import { useTranslation } from "react-i18next";
 import { useActiveChurch } from "@/lib/hooks/useActiveChurch";
 import { downloadBlob, exportSongsAsBlob } from "@/lib/db/songs";
 import { SongListPanel } from "@/features/songs/SongListPanel";
-import { LanguageSwitcher } from "@/features/ui/LanguageSwitcher";
-import { ThemeSwitcher } from "@/features/ui/ThemeSwitcher";
+import { HeaderMenu } from "@/features/ui/HeaderMenu";
+import { SyncButton } from "@/features/console/SyncButton";
 
 export function ConsoleSongsPage() {
   const { t } = useTranslation();
@@ -24,17 +24,9 @@ export function ConsoleSongsPage() {
           <h1 className="text-lg font-semibold tracking-tight">{t("console.title")}</h1>
           <p className="text-xs text-zinc-500 dark:text-zinc-400">{t("console.subtitle")}</p>
         </div>
-        <div className="flex items-center gap-2">
-          <button
-            type="button"
-            onClick={handleExport}
-            className="rounded-md border border-zinc-200 bg-white px-3 py-1.5 text-xs text-zinc-700 hover:bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-800"
-            title={t("songs.actions.export")}
-          >
-            ⬇ {t("songs.actions.export")}
-          </button>
-          <ThemeSwitcher />
-          <LanguageSwitcher />
+        <div className="flex items-center gap-3">
+          <SyncButton />
+          <HeaderMenu onExport={handleExport} />
         </div>
       </header>
       <div className="grid min-h-0 flex-1 grid-cols-[320px_1fr]">
